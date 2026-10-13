@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        // let user = {
+        //     name: "aaaaa",
+        //     age: 16
+        // }
+        // console.log(user);
+
+        // let fruits = ["банан", "апельсин", "мандарин"]
+        // console.log(fruits[1]);
+
+
+        // let cars = ["BMW", "AUDI", "MERCEDES"];
+
+        // for (let i = 0; i < cars.length; i++) {
+        //     console.log(cars[i]);
+        // }
+
+
+
+        // function CarsCount(array) {
+        //     // Объявляем переменную-счётчик и инициализируем её нулём
+        //     let count = 0;
+
+        //     // Выводим в консоль весь входной массив — полезно для проверки данных
+        //     console.log(array);
+
+        //     // Запускаем цикл: начинаем с индекса 0, идём до конца массива (не включая array.length)
+        //     for (let i = 0; i < array.length; i++) {
+        //         // На каждой итерации выводим текущий элемент массива (марку машины)
+        //         console.log(array[i]);
+
+        //         // Увеличиваем счётчик на 1 — так считаем количество элементов
+        //         count++;
+        //     }
+
+        //     // Возвращаем итоговую строку с количеством машин (конкатенация текста и числа)
+        //     return "Количество машин: " + count;
+        // }
+
+        // // Вызываем функцию, передавая массив из 4 марок автомобилей
+        // CarsCount(["BMW", "AUDI", "SKILYNE", "SUPRA"])
+
+
+
+
+        // методы массива
+
+        // let cars = [ "audi" , "bmw" , "nissan" , ]
+        // console.log(cars);
+        // cars.push("LADA");
+        // console.log(cars);
+        
+            
+        // // pop() удаляет последний элемент массива
+        // cars.pop();
+        // console.log(cars);
+
+
+
+
+        // unShift() добавляет элемент в начале массива
+        let cars2 = ["audi" , "bmw" , "mercedes" ];
+        cars2.unshift("LADA")
+        console.log(cars2);
+
+        // shift() удаляет элемент с начало массива
+    cars2.shift()
+    console.log(cars2);
+
+        function cars(){
+            let cars2 = ["audi" , "bmw" , "mercedes" ];
+            
+            cars.push("LADA");
+            return "Количество машин: " + cars2;
+        }
+        console.log(cars2);
+
+    </script>
+</body>
+
+</html>
